@@ -1,8 +1,13 @@
-# Intelligence Into Imagination — Current Layout / Stronger Brain
+# Intelligence Into Imagination — Vercel static + API build
 
-This version preserves the exact current visual layout from the working site, removes Hiebing branding and example prompts, and upgrades the OpenAI reasoning prompt.
+Upload these files to the root of the existing GitHub repo, replacing the current files.
 
-Upload all files/folders to the ROOT of the existing GitHub repo and replace the prior files. Commit to main; Vercel will redeploy.
+Structure:
+- index.html — static homepage
+- api/imagine.js — Vercel serverless API only
+- package.json — no app/server entrypoint
 
-Required Vercel Secret: `OPENAI_API_KEY`
-Optional: `OPENAI_MODEL=gpt-5-mini`
+Vercel automatically serves index.html and maps api/imagine.js to /api/imagine.
+
+Required Vercel Secret: OPENAI_API_KEY
+Optional: OPENAI_MODEL=gpt-5-mini
