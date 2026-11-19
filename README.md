@@ -1,8 +1,8 @@
-# Intelligence Into Imagination — v2
+# Intelligence Into Imagination — Current Layout / Stronger Brain
 
-Same visual layout, stronger intelligence-to-imagination engine, examples removed.
+This version preserves the exact current visual layout from the working site, removes Hiebing branding and example prompts, and upgrades the OpenAI reasoning prompt.
 
-Upload every file/folder in this package to the ROOT of the existing GitHub repository, replacing the old files, then commit to main. Vercel will redeploy automatically.
+Upload all files/folders to the ROOT of the existing GitHub repo and replace the prior files. Commit to main; Vercel will redeploy.
 
 Required Vercel Secret: `OPENAI_API_KEY`
 Optional: `OPENAI_MODEL=gpt-5-mini`
