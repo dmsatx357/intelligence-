@@ -1,9 +1,8 @@
-# Intelligence Into Imagination
-Ready for GitHub + Vercel + OpenAI.
+# Intelligence Into Imagination — v2
 
-Upload all files/folders here to the ROOT of your GitHub repository, replacing the old version. Commit to main. Vercel will redeploy automatically.
+Same visual layout, stronger intelligence-to-imagination engine, examples removed.
 
-Required Vercel Secret: OPENAI_API_KEY
-Optional: OPENAI_MODEL=gpt-5-mini
+Upload every file/folder in this package to the ROOT of the existing GitHub repository, replacing the old files, then commit to main. Vercel will redeploy automatically.
 
-Never commit an API key to GitHub.
+Required Vercel Secret: `OPENAI_API_KEY`
+Optional: `OPENAI_MODEL=gpt-5-mini`
