@@ -1,1 +1,7 @@
-{"name":"intelligence-into-imagination","version":"1.0.0","private":true,"type":"module"}
+{
+  "name": "intelligence-into-imagination",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "main": "api/imagine.js"
+}
